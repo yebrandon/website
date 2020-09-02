@@ -131,7 +131,6 @@
 				btns[2].className = 'navlink';
 			} else if ($(this)[0].id == 'experience') {
 				btns[3].className = 'navlink';
-				console.log(btns[3].className);
 			}
 
 			if ($(this).hasClass('onscroll-bidirectional'))

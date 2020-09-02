@@ -7360,14 +7360,14 @@ body.is-preload .gallery.onload-fade-in article .image img {
 /* Items (transitions) */
 
 .items.onload-fade-in > * > .inner {
-	-moz-transition: opacity 0.75s ease-in-out;
-	-webkit-transition: opacity 0.75s ease-in-out;
-	-ms-transition: opacity 0.75s ease-in-out;
-	transition: opacity 0.75s ease-in-out;
-	-moz-transition-delay: 2.4s;
-	-webkit-transition-delay: 2.4s;
-	-ms-transition-delay: 2.4s;
-	transition-delay: 2.4s;
+	-moz-transition: opacity 0.5s ease-in-out;
+	-webkit-transition: opacity 0.5s ease-in-out;
+	-ms-transition: opacity 0.5s ease-in-out;
+	transition: opacity 0.5s ease-in-out;
+	-moz-transition-delay: 2s;
+	-webkit-transition-delay: 2s;
+	-ms-transition-delay: 2s;
+	transition-delay: 2s;
 }
 
 .items.onload-fade-in > *:nth-child(1) > .inner {
@@ -8656,17 +8656,16 @@ body.is-preload .items.onload-fade-in > * > .inner {
 }
 
 .sideimg {
-	width: 80%;
+	width: 55%;
 }
 
 @font-face {
 	font-family: 'icomoon';
-	src: url('assets/assets/fonts/icomoon.eot?1wp4qk');
-	src: url('assets/assets/fonts/icomoon.eot?1wp4qk#iefix')
-			format('embedded-opentype'),
-		url('assets/assets/fonts/icomoon.ttf?1wp4qk') format('truetype'),
-		url('assets/assets/fonts/icomoon.woff?1wp4qk') format('woff'),
-		url('assets/assets/fonts/icomoon.svg?1wp4qk#icomoon') format('svg');
+	src: url('../fonts/icomoon.eot?1wp4qk');
+	src: url('../fonts/icomoon.eot?1wp4qk#iefix') format('embedded-opentype'),
+		url('../fonts/icomoon.ttf?1wp4qk') format('truetype'),
+		url('../fonts/icomoon.woff?1wp4qk') format('woff'),
+		url('../fonts/icomoon.svg?1wp4qk#icomoon') format('svg');
 	font-weight: normal;
 	font-style: normal;
 	font-display: block;
@@ -8708,4 +8707,15 @@ body.is-preload .items.onload-fade-in > * > .inner {
 
 a:active {
 	color: #47d3e577;
+}
+
+@media screen and (max-width: 480px) {
+	.sideimg {
+		margin: auto;
+		width: 40%;
+		padding-bottom: 10%;
+	}
+	.expheader {
+		margin: auto;
+	}
 }
