@@ -118,6 +118,8 @@
 				btns[2].className += ' currentSection';
 			} else if ($(this)[0].id == 'experience') {
 				btns[3].className += ' currentSection';
+			} else if ($(this)[0].id == 'contact') {
+				btns[4].className += ' currentSection';
 			}
 
 			$(this).removeClass('is-inactive');
@@ -131,6 +133,8 @@
 				btns[2].className = 'navlink';
 			} else if ($(this)[0].id == 'experience') {
 				btns[3].className = 'navlink';
+			} else if ($(this)[0].id == 'contact') {
+				btns[4].className = 'navlink';
 			}
 
 			if ($(this).hasClass('onscroll-bidirectional'))
