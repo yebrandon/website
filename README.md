@@ -1,4 +1,4 @@
-This site was built using Story by HTML5 UP
+This site was built using [Story by HTML5 UP](https://html5up.net/story)
 
 Story by HTML5 UP
 html5up.net | @ajlkn
