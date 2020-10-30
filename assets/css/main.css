@@ -258,10 +258,6 @@ a {
 	text-decoration: underline;
 }
 
-a:hover {
-	text-decoration: none;
-}
-
 strong,
 b {
 	font-weight: 400;
@@ -284,8 +280,7 @@ h1,
 h2,
 h3,
 h4,
-h5,
-h6 {
+h5 {
 	font-weight: 300;
 	line-height: 1.375;
 	letter-spacing: -0.05em;
@@ -2732,6 +2727,7 @@ a.icon.style2:active:before {
 	border-radius: 4px;
 	display: inline-block;
 	position: relative;
+	z-index: 2;
 }
 
 .image img {
@@ -2867,16 +2863,15 @@ ul.actions {
 	display: flex;
 	cursor: default;
 	list-style: none;
-	margin-left: -1rem;
 	padding-left: 0;
-
-	margin-left: 0;
+	margin-left: -1rem;
 }
 
 ul.actions li {
 	padding: 0 0 0 1rem;
 	vertical-align: middle;
 	float: left;
+	margin: left;
 }
 
 ul.actions.special {
@@ -2932,13 +2927,19 @@ ul.actions.fit.stacked {
 	width: 100%;
 }
 
+@media screen and (max-width: 768px) {
+	ul.actions {
+		display: flex;
+		justify-content: center;
+	}
+}
+
 @media screen and (max-width: 480px) {
 	ul.actions:not(.fixed) {
 		-moz-flex-direction: column;
 		-webkit-flex-direction: column;
 		-ms-flex-direction: column;
 		flex-direction: column;
-		margin-left: 0;
 		width: 100% !important;
 	}
 
@@ -3948,9 +3949,9 @@ body.is-preload .banner.onload-image-fade-in .image img {
 	-ms-flex-shrink: 0;
 	flex-shrink: 0;
 	width: 14rem;
-	height: 14rem;
-	border-radius: 100%;
+	/* border-radius: 100%; */
 	margin: 0 3.5rem 2rem 0;
+	bottom: 2rem;
 }
 
 .banner.style3 .image img {
@@ -3965,7 +3966,7 @@ body.is-preload .banner.onload-image-fade-in .image img {
 	display: block;
 	width: 100%;
 	height: 100%;
-	border-radius: 100%;
+	/* border-radius: 100%; */
 }
 
 @media screen and (max-width: 1680px) {
@@ -3987,7 +3988,6 @@ body.is-preload .banner.onload-image-fade-in .image img {
 
 	.banner.style3 .image {
 		width: 18.375rem;
-		height: 18.375rem;
 	}
 }
 
@@ -4002,7 +4002,6 @@ body.is-preload .banner.onload-image-fade-in .image img {
 
 	.banner.style3 .image {
 		width: 15.75rem;
-		height: 15.75rem;
 		margin: 0 2rem 2rem 0;
 	}
 }
@@ -4444,7 +4443,7 @@ body.is-preload .banner.onload-image-fade-in .image img {
 }
 
 .banner .image {
-	background-color: rgba(0, 0, 0, 0.125);
+	background-color: rgba(0, 0, 0, 0);
 }
 
 .banner.invert .image {
@@ -8721,4 +8720,11 @@ a:active {
 	.expheader {
 		margin: auto;
 	}
+}
+
+.wizard {
+	position: absolute;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
 }
