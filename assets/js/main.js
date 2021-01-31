@@ -86,14 +86,6 @@
 			});
 		})();
 
-	//Navbar Highlight
-
-	// Get the container element
-	var btnContainer = document.getElementById('navbar');
-
-	// Get all buttons with class="btn" inside the container
-	var btns = btnContainer.getElementsByClassName('navlink');
-
 	// Smooth scroll.
 	$('.smooth-scroll').scrolly();
 	$('.smooth-scroll-middle').scrolly({ anchor: 'middle' });
@@ -106,43 +98,16 @@
 			$(this).addClass('is-inactive');
 		},
 		terminate: function () {
-			$(this).removeClass('currentSection');
 			$(this).removeClass('is-inactive');
 		},
 		enter: function () {
-			if ($(this)[0].id == 'about') {
-				btns[0].className += ' currentSection';
-			} else if ($(this)[0].id == 'projects') {
-				btns[1].className += ' currentSection';
-			} else if ($(this)[0].id == 'skills') {
-				btns[2].className += ' currentSection';
-			} else if ($(this)[0].id == 'experience') {
-				btns[3].className += ' currentSection';
-			} else if ($(this)[0].id == 'contact') {
-				btns[4].className += ' currentSection';
-			}
-
 			$(this).removeClass('is-inactive');
 		},
 		leave: function () {
-			if ($(this)[0].id == 'about') {
-				btns[0].className = 'navlink';
-			} else if ($(this)[0].id == 'projects') {
-				btns[1].className = 'navlink';
-			} else if ($(this)[0].id == 'skills') {
-				btns[2].className = 'navlink';
-			} else if ($(this)[0].id == 'experience') {
-				btns[3].className = 'navlink';
-			} else if ($(this)[0].id == 'contact') {
-				btns[4].className = 'navlink';
-			}
+			var $this = $(this);
 
-			if ($(this).hasClass('onscroll-bidirectional'))
-				$(this).addClass('is-inactive');
-
-			if ($(this).hasClass('fade-in')) {
-				$(this).addClass('is-inactive');
-			}
+			if ($this.hasClass('onscroll-bidirectional'))
+				$this.addClass('is-inactive');
 		}
 	});
 

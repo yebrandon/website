@@ -6125,10 +6125,10 @@ body.is-preload .gallery.onload-fade-in article .image img {
 }
 
 .gallery.onscroll-fade-in article .image img {
-	-moz-transition: opacity 0.75s ease-in-out;
-	-webkit-transition: opacity 0.75s ease-in-out;
-	-ms-transition: opacity 0.75s ease-in-out;
-	transition: opacity 0.75s ease-in-out;
+	-moz-transition: opacity 0.5s ease-in-out;
+	-webkit-transition: opacity 0.5s ease-in-out;
+	-ms-transition: opacity 0.5s ease-in-out;
+	transition: opacity 0.5s ease-in-out;
 	-moz-transition-delay: 4.8s;
 	-webkit-transition-delay: 4.8s;
 	-ms-transition-delay: 4.8s;
@@ -6143,38 +6143,38 @@ body.is-preload .gallery.onload-fade-in article .image img {
 }
 
 .gallery.onscroll-fade-in article:nth-child(2) .image img {
-	-moz-transition-delay: 0.15s;
-	-webkit-transition-delay: 0.15s;
-	-ms-transition-delay: 0.15s;
-	transition-delay: 0.15s;
+	-moz-transition-delay: 0.1s;
+	-webkit-transition-delay: 0.1s;
+	-ms-transition-delay: 0.1s;
+	transition-delay: 0.1s;
 }
 
 .gallery.onscroll-fade-in article:nth-child(3) .image img {
+	-moz-transition-delay: 0.2s;
+	-webkit-transition-delay: 0.2s;
+	-ms-transition-delay: 0.2s;
+	transition-delay: 0.2s;
+}
+
+.gallery.onscroll-fade-in article:nth-child(4) .image img {
 	-moz-transition-delay: 0.3s;
 	-webkit-transition-delay: 0.3s;
 	-ms-transition-delay: 0.3s;
 	transition-delay: 0.3s;
 }
 
-.gallery.onscroll-fade-in article:nth-child(4) .image img {
-	-moz-transition-delay: 0.45s;
-	-webkit-transition-delay: 0.45s;
-	-ms-transition-delay: 0.45s;
-	transition-delay: 0.45s;
-}
-
 .gallery.onscroll-fade-in article:nth-child(5) .image img {
-	-moz-transition-delay: 0.6s;
-	-webkit-transition-delay: 0.6s;
-	-ms-transition-delay: 0.6s;
-	transition-delay: 0.6s;
+	-moz-transition-delay: 0.4s;
+	-webkit-transition-delay: 0.4s;
+	-ms-transition-delay: 0.4s;
+	transition-delay: 0.4s;
 }
 
 .gallery.onscroll-fade-in article:nth-child(6) .image img {
-	-moz-transition-delay: 0.75s;
-	-webkit-transition-delay: 0.75s;
-	-ms-transition-delay: 0.75s;
-	transition-delay: 0.75s;
+	-moz-transition-delay: 0.5s;
+	-webkit-transition-delay: 0.5s;
+	-ms-transition-delay: 0.5s;
+	transition-delay: 0.5s;
 }
 
 .gallery.onscroll-fade-in article:nth-child(7) .image img {
