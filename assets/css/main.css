@@ -6527,6 +6527,7 @@ body.is-preload .gallery.onload-fade-in article .image img {
 	display: block;
 	width: 100%;
 	border-radius: 0;
+	background-color: white;
 }
 
 .gallery.style1 article .image img {
