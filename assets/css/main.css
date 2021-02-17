@@ -6674,7 +6674,7 @@ body.is-preload .gallery.onload-fade-in article .image img {
 
 @media screen and (max-width: 1280px) {
 	.gallery.style1.big article {
-		width: 50%;
+		width: 33.33333%;
 	}
 
 	.gallery.style1.big article .caption {
@@ -7702,24 +7702,16 @@ body.is-preload .items.onload-fade-in > * > .inner {
 }
 
 @media screen and (max-width: 1280px) {
-	.items.style1.small > *:nth-child(-n + 4) {
-		border-top-width: 1px;
-	}
-
-	.items.style1.small > *:nth-child(4n + 1) {
-		border-left-width: 1px;
-	}
-
 	.items.style1.small > * {
-		padding: 2.1875rem 2.1875rem 0.1875rem 2.1875rem;
-		width: 33.33333%;
+		padding: 1.3125rem 1.3125rem 0.1rem 1.3125rem;
+		width: 25%;
 	}
 
-	.items.style1.small > *:nth-child(-n + 3) {
+	.items.style1.small > *:nth-child(-n + 4) {
 		border-top-width: 0;
 	}
 
-	.items.style1.small > *:nth-child(3n + 1) {
+	.items.style1.small > *:nth-child(4n + 1) {
 		border-left-width: 0;
 	}
 }
@@ -7745,25 +7737,24 @@ body.is-preload .items.onload-fade-in > * > .inner {
 	.items.style1.medium > *:nth-child(2n + 1) {
 		border-left-width: 0;
 	}
-
-	.items.style1.small > *:nth-child(-n + 3) {
+	.items.style1.small > *:nth-child(-n + 4) {
 		border-top-width: 1px;
 	}
 
-	.items.style1.small > *:nth-child(3n + 1) {
+	.items.style1.small > *:nth-child(4n + 1) {
 		border-left-width: 1px;
 	}
 
 	.items.style1.small > * {
-		padding: 3.5rem 3.5rem 1.5rem 3.5rem;
-		width: 50%;
+		padding: 2.1875rem 2.1875rem 0.1875rem 2.1875rem;
+		width: 33.33333%;
 	}
 
-	.items.style1.small > *:nth-child(-n + 2) {
+	.items.style1.small > *:nth-child(-n + 3) {
 		border-top-width: 0;
 	}
 
-	.items.style1.small > *:nth-child(2n + 1) {
+	.items.style1.small > *:nth-child(3n + 1) {
 		border-left-width: 0;
 	}
 }
@@ -7811,24 +7802,24 @@ body.is-preload .items.onload-fade-in > * > .inner {
 		border-left-width: 0;
 	}
 
-	.items.style1.small > *:nth-child(-n + 2) {
+	.items.style1.small > *:nth-child(-n + 3) {
 		border-top-width: 1px;
 	}
 
-	.items.style1.small > *:nth-child(2n + 1) {
+	.items.style1.small > *:nth-child(3n + 1) {
 		border-left-width: 1px;
 	}
 
 	.items.style1.small > * {
-		padding: 2.625rem 2.625rem 0.625rem 2.625rem;
-		width: 100%;
+		padding: 3.5rem 3.5rem 1.5rem 3.5rem;
+		width: 50%;
 	}
 
-	.items.style1.small > *:nth-child(-n + 1) {
+	.items.style1.small > *:nth-child(-n + 2) {
 		border-top-width: 0;
 	}
 
-	.items.style1.small > *:nth-child(1n + 1) {
+	.items.style1.small > *:nth-child(2n + 1) {
 		border-left-width: 0;
 	}
 
