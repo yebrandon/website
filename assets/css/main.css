@@ -7831,8 +7831,7 @@ body.is-preload .items.onload-fade-in > * > .inner {
 	}
 
 	.items.style1.big > :first-child,
-	.items.style1.medium > :first-child,
-	.items.style1.small > :first-child {
+	.items.style1.medium > :first-child{
 		padding-top: 0;
 	}
 
