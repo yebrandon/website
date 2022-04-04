@@ -3984,10 +3984,6 @@ body.is-preload .banner.onload-image-fade-in .image img {
 	.banner.style3 {
 		padding: 3.75rem 3rem 1.75rem 3rem;
 	}
-
-	.banner.style3 .image {
-		width: 18.375rem;
-	}
 }
 
 @media screen and (max-width: 736px) {
@@ -4045,7 +4041,7 @@ body.is-preload .banner.onload-image-fade-in .image img {
 
 @media screen and (max-width: 736px) {
 	.banner.style3.orient-left .image {
-		margin: 0 0 2rem 2rem;
+		margin: 2rem 0 1rem 2rem;
 	}
 }
 
@@ -7831,7 +7827,7 @@ body.is-preload .items.onload-fade-in > * > .inner {
 	}
 
 	.items.style1.big > :first-child,
-	.items.style1.medium > :first-child{
+	.items.style1.medium > :first-child {
 		padding-top: 0;
 	}
 
